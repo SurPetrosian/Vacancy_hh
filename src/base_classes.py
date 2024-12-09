@@ -2,7 +2,6 @@ from abc import ABC, abstractmethod
 
 
 class BaseVacancyParser(ABC):
-    """Abstract class for vacancy parsers"""
 
     @abstractmethod
     def fetch_vacancies(self, keyword, pages_amount):
@@ -14,7 +13,6 @@ class BaseVacancyParser(ABC):
 
 
 class BaseFileTool(ABC):
-    """Abstract class for working with files"""
 
     @abstractmethod
     def get_data_from_file(self):

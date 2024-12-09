@@ -7,7 +7,6 @@ api_logger = logger_setup()
 
 
 class HeadHunterAPI(BaseVacancyParser):
-    """Class-connector to hh.ru API for getting vacancies by keyword"""
 
     def __init__(self):
         self.__url = "https://api.hh.ru/vacancies"
@@ -28,7 +27,6 @@ class HeadHunterAPI(BaseVacancyParser):
         return self.__params
 
     def fetch_vacancies(self, keyword: str, pages_amount: int) -> None:
-        """Fetching vacancies from HeadHunter"""
         self.__params["text"] = keyword
         while self.__params["page"] != abs(pages_amount):
             api_logger.info(f"Parsing page number: {self.__params['page']}")
@@ -40,7 +38,6 @@ class HeadHunterAPI(BaseVacancyParser):
             self.__params["page"] += 1
 
     def squeeze(self) -> list:
-        """Choosing only useful information from api response and returning filtered list with salary in RUB"""
         squeezed_info = []
         for vacancy in self.vacancies:
             try:
