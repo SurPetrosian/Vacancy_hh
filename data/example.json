@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Junior backend developer",
+        "salary": {
+            "from": 0,
+            "to": 80000,
+            "currency": "RUR"
+        },
+        "url": "https://hh.ru/vacancy/108350897",
+        "requirement": "Bobr AI это: Опыт работы с одним из языков: <highlighttext>Python</highlighttext>, Node.js, Java, Ruby или PHP. Знание RESTful API, основ HTTP..."
+    },
+    {
+        "name": "Инженер-программист",
+        "salary": {
+            "from": 80000,
+            "to": 0,
+            "currency": "RUR"
+        },
+        "url": "https://hh.ru/vacancy/108330666",
+        "requirement": "Опыт программирования GUI, знание принципов проектирования реляционных БД , SQL. Желательно знание Visual FoxPro, MS SQL, PostgreSQL, Java, <highlighttext>Python</highlighttext> основ технологической..."
+    },
+    {
+        "name": "Junior Golang Developer",
+        "salary": {
+            "from": 75000,
+            "to": 0,
+            "currency": "RUR"
+        },
+        "url": "https://hh.ru/vacancy/107012173",
+        "requirement": "Опыт работы с CI/CD. Опыт с другими языками программирования, такими как <highlighttext>Python</highlighttext>, Java, C++ и т. д., будет преимуществом. "
+    },
+    {
+        "name": "Младший тестировщик ПО",
+        "salary": {
+            "from": 70000,
+            "to": 0,
+            "currency": "RUR"
+        },
+        "url": "https://hh.ru/vacancy/108375904",
+        "requirement": "Опыт работы с Linux системами. Навыки программирования Java/<highlighttext>Python</highlighttext> (frameworks: Behave/PyTest). Чтение кода (понимание) ruby, C#, vue. "
+    },
+    {
+        "name": "Тестировщик программного обеспечения",
+        "salary": {
+            "from": 50000,
+            "to": 70000,
+            "currency": "RUR"
+        },
+        "url": "https://hh.ru/vacancy/107766763",
+        "requirement": "Опыт работы с языками программирования для создания тестов (<highlighttext>Python</highlighttext>, Java, C#). - Знание современных инструментов тестирования (Selenium, Appium, Robot Framework и..."
+    }
+]
